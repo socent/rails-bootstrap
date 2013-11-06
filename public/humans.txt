@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Brad Wilcox -- @bradwilcox
+    Jakob Schenker -- @jakobschenker
+
+# THANKS
+
+    Ian Steffy
+    Robby Sangha
+
+# TECHNOLOGY COLOPHON
+
+    Rails 4, HTML5, CSS3
+    Normalize.css, jQuery
+
+    Source: https://github.com/socent
