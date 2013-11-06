@@ -2,6 +2,10 @@ RailsBootstrap::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
+  # In addition to providing a controller, the HighVoltage gem provides
+  # default routing for page files in the Pages directory in views
+  # get "/pages/*id" => 'pages#show'
+
   root :to => 'visitors#new'
 
   # Example of regular route:
