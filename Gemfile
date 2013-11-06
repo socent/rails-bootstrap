@@ -18,7 +18,14 @@ gem 'figaro'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.0.0'
+
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
+end
+
+group :production do
+  gem 'pg'
+  gem 'thin'
+  gem 'rails_12factor'
 end
